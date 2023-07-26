@@ -1,0 +1,41 @@
+html {
+    display: block;
+}
+body {
+    color: #999999;
+}
+h1 {
+  text-align: center;
+  color: darkgreen;
+}
+.status {
+  text-align: center;
+  color: blueviolet;
+  size: 16px;
+}
+
+.field {
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .item {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background: rgb(64, 165, 123);
+  }
+  
+  .item_has-goblin {
+    background-image: url('../img/goblin.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(255, 251, 0);
+    cursor: url('../img/hammer.svg'), auto;
+  }
